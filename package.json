@@ -1,0 +1,26 @@
+{
+  "name": "top-player-proxy",
+  "version": "1.0.0",
+  "description": "Proxy Server for Top-Player",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "http-proxy-middleware": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-audibly/top-player-proxy.git"
+  },
+  "author": "Harrison Edwards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/project-audibly/top-player-proxy/issues"
+  },
+  "homepage": "https://github.com/project-audibly/top-player-proxy#readme"
+}
