@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+/* #TopPlayer {
+  max-width: 1240px;
+  margin: 0 auto;
+
+} */
+
+#center {
+  max-width: 1180px;
+  margin: 0 auto;
+  position: relative;
+  display: block; 
+  background-color: #fff;
+  padding: 30px;
+}
+
+#Comments {
+  left: 0;
+  margin-right: 330px;
+  padding-top: 20px;
+  display: block;
+
+}
+
+#SideBar {
+  display: inline-flex;
+  top: 30px;
+  right: 0;
+  position: absolute;
+  bottom: auto;
+  width: 300px;
+  padding-bottom: 50px;
+
+}
+
+#BottomPlayer {
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
