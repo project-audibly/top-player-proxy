@@ -3,12 +3,12 @@ body {
 }
 
 #center {
-  max-width: 1180px;
+  max-width: 1210px;
   margin: 0 auto;
   position: relative;
   display: block; 
   background-color: #fff;
-  padding: 30px;
+  padding-right: 30px;
 }
 
 #Comments {
@@ -25,6 +25,7 @@ body {
   bottom: auto;
   width: 300px;
   padding: 50px;
+  border-left: 1px solid #b8b8b8;
 
 }
 

@@ -12,9 +12,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // app.use('/', createProxyMiddleware({ target: 'localhost:3000', changeOrigin: true }))
 app.use('/songData', createProxyMiddleware({ target: 'http://localhost:3001' }))
-app.use('/api/comments', createProxyMiddleware({ target: 'http://localhost:3002' }))
+app.use('/api/comments', createProxyMiddleware({ target: 'http://localhost:4001' }))
+app.use('/api/track', createProxyMiddleware({ target: 'http://localhost:4001' }))
 app.use('/api/mainSong', createProxyMiddleware({ target: 'http://localhost:3003'}))
-app.use('/songs', createProxyMiddleware({ target: 'http://localhost:3004' }))
+app.use('/songs', createProxyMiddleware({ target: 'http://localhost:3131' }))
 
 app.use(express.static('client'));
 
