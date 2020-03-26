@@ -2,26 +2,18 @@ body {
   margin: 0;
 }
 
-/* #TopPlayer {
-  max-width: 1240px;
-  margin: 0 auto;
-
-} */
-
 #center {
-  max-width: 1180px;
+  max-width: 1210px;
   margin: 0 auto;
   position: relative;
   display: block; 
   background-color: #fff;
-  padding: 30px;
+  padding-right: 30px;
 }
 
 #Comments {
   left: 0;
-  margin-right: 330px;
   padding-top: 20px;
-  display: block;
 
 }
 
@@ -32,7 +24,8 @@ body {
   position: absolute;
   bottom: auto;
   width: 300px;
-  padding-bottom: 50px;
+  padding: 50px;
+  border-left: 1px solid #b8b8b8;
 
 }
 

@@ -8,7 +8,10 @@
     "express-http-proxy": "^1.6.0",
     "http-proxy-middleware": "^1.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-aws": "^0.7.1",
+    "grunt-contrib-connect": "^2.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server/index.js"
